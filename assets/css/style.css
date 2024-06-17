@@ -1,0 +1,20 @@
+#hero{
+    background-color: #6DC5D1;
+}
+
+body {
+
+    background-color: #FBFFF0;
+}
+
+.icon-square {
+    background-color: #6DC5D1;
+    border-color: black;
+    border-radius: 10%;
+    border-style: solid;
+}
+
+h2 {
+    border-color: black;
+    border-bottom: 1px solid black;
+}

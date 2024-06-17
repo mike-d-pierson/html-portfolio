@@ -3,20 +3,370 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mike's Portfolio</title>
+    <title>The Mike Pierson Experience</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Mike Pierson's Portfolio</h1>
-    <h2>I'm a Web Developer</h2>
+    <!-- Theme https://colorhunt.co/palette/0741731679ab5debd7c5ff95 -->
+    <!-- Title / hero section-->
+    <div
+      id="hero"
+      class="px-4 pt-5 text-center border-bottom"
+      data-bs-theme="dark"
+    >
+      <h1 class="display-4 fw-bold text-body-emphasis">I am Mike Pierson</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4 text-white">
+          Software Engineer/Programmer/Developer
+        </p>
+        <p class="text-white">Just doing all the software</p>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh">
+        <div class="container px-5">
+          <img
+            src="./Assets/images/programming.svg"
+            class="img-fluid border rounded-3 shadow-lg mb-4"
+            alt="Example image"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Resume page, can link to project 1 -->
+    <div class="container px-4 py-5" id="hanging-icons">
+      <h2 class="pb-2">Skills</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 p-1"
+          >
+            <img src="./Assets/images/file-earmark-person.svg" width="32" />
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Resume</h3>
+            <p>From machine vision to controlling robots.</p>
+            <a href="#" class="btn btn-primary"> Take a look </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section to showcase projects / work -->
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <h2 class="pb-2">Projects</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+              </svg>
 
-    <hr />
-    <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-    <img src="./assets/images/movie-ranking.png" height="200" />
-    <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
-    <img src="./assets/images/birthday-invite.png" height="200" />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      View
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+              </svg>
 
-    <hr />
-    <a href="./public/about.html">About Me</a>
-    <a href="./public/contact.html">Contact Me</a>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      View
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      View
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Edit
+                    </button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---->
+
+    <!-- About me section / interests and what not -->
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <h2 class="pb-2">About Me</h2>
+        <div class="bd-example m-0 border-0">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide pointer-event"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!-- <svg
+                  class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+                  width="800"
+                  height="400"
+                  src="http://www.w3.org/2000/svg"
+                  role="img"
+                  aria-label="Placeholder: First slide"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false"
+                > -->
+                <img
+                  src="./Assets/images/family_scaled.jpg"
+                  class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+                />
+                <!--<title>TinDog</title> -->
+                <!-- <rect width="800px" height="400px" fill="#777"></rect> -->
+
+                <!-- <div class="carousel-caption d-none d-md-block">
+                  <h5>TinDog</h5>
+                  <p>
+                    Where dogs can meet other dogs!
+                  </p>
+                </div> -->
+              </div>
+              <div class="carousel-item">
+                <svg
+                  class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+                  width="800"
+                  height="400"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  aria-label="Placeholder: Second slide"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false"
+                >
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#666"></rect>
+                  <text x="50%" y="50%" fill="#444" dy=".3em">
+                    Second slide
+                  </text>
+                </svg>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <svg
+                  class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+                  width="800"
+                  height="400"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  aria-label="Placeholder: Third slide"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false"
+                >
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#555"></rect>
+                  <text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text>
+                </svg>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact me -->
+    <div class="container">
+      <h2 class="pb-2">Contact Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <div class="text-center">
+            <svg
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              ></rect>
+            </svg>
+            <h2 class="fw-normal">Heading</h2>
+            <p>
+              Some representative placeholder content for the three columns of
+              text below the carousel. This is the first column.
+            </p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
